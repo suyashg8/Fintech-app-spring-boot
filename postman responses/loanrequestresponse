@@ -1,0 +1,1 @@
+[{"id":6,"amount":{"currency":"USD","amount":50.0},"borrower":{"username":"John","firstName":"John","lastName":"B","age":27,"occupation":"Software Developer","balance":{"moneyMap":{"USD":{"currency":"USD","amount":100.0}}}},"repaymentTermInDays":10,"interestRate":10.0}]
