@@ -10,14 +10,18 @@ public class UserDTO {
 	 private String lastName;
 	 private int age;
 	 private String occupation;
-	 
+	 private Balance balance;
 	 
 
 	 public UserDTO() {
 			 
 		 }
 		 
-	 public UserDTO(String username, String password, String firstName, String lastName, int age, String occupation) {
+	 
+
+	 
+	public UserDTO(String username, String password, String firstName, String lastName, int age, String occupation,
+			Balance balance) {
 		super();
 		this.username = username;
 		this.password = password;
@@ -25,10 +29,11 @@ public class UserDTO {
 		this.lastName = lastName;
 		this.age = age;
 		this.occupation = occupation;
+		this.balance = balance;
 	}
 
 
-	 
+
 	public String getUsername() {
 		return username;
 	}
@@ -55,6 +60,10 @@ public class UserDTO {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public Balance getBalance() {
+		return balance;
 	}
 	 
 	 
